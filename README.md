@@ -1,5 +1,5 @@
 
-# <div align = "center"> H3-Mapping: </div>
+# <div align = "center"><img src="figure/IMG_1396.PNG" alt="image-20200927095842317" style="zoom:30%;" /> H3-Mapping: </div>
 
 ## <div align = "center"> Quasi-Heterogeneous Feature Grids for Real-time Dense Mapping Using Hierarchical Hybrid Representation</div>
 
