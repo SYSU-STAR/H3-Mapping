@@ -1,7 +1,7 @@
 
 # <div align = "center"><img src="figure/IMG_1396.PNG" alt="image-20200927095842317" width="5%" height="5%" /> H3-Mapping: </div>
 
-## <div align = "center"> Quasi-Heterogeneous Feature Grids for Real-time Dense Mapping Using Hierarchical Hybrid Representation</div>
+### <div align = "center"> Quasi-Heterogeneous Feature Grids for Real-time Dense Mapping Using Hierarchical Hybrid Representation</div>
 
 <div align="center">
 <a href="https://arxiv.org/abs/2403.10821"><img src="https://img.shields.io/badge/ArXiv-2403.10821-004088.svg"/></a>
