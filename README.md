@@ -11,7 +11,8 @@
 <a href="https://www.bilibili.com/video/BV1By421v7S8">
 <img alt="Bilibili" src="https://img.shields.io/badge/Video-Bilibili-blue"/>
 </a>
-<a ><img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-red" /></a>
+<a ><img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-red" />
+</a>
 <a href="https://github.com/SYSU-STAR/H3-Mapping/stargazers">
 <img alt="stars" src="https://img.shields.io/github/stars/SYSU-STAR/H3-Mapping" />
 </a>
