@@ -36,3 +36,21 @@ In recent years, implicit online dense mapping methods have achieved high-qualit
 
 ## Code
 The code will coming soon ~.
+
+## Contact
+
+You can contact the author through email: cjiangan@connect.ust.hk and zhouby23@mail.sysu.edu.cn
+
+## Citing
+
+If you find our work useful, please consider citing:
+
+```
+@article{jiang2024h3,
+  title={H3-Mapping: Quasi-Heterogeneous Feature Grids for Real-time Dense Mapping Using Hierarchical Hybrid Representation},
+  author={Jiang, Chenxing and Luo, Yiming and Zhou, Boyu and Shen, Shaojie},
+  journal={arXiv preprint arXiv:2403.10821},
+  year={2024}
+}
+```
+
