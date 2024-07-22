@@ -5,7 +5,7 @@
 
 <div align="center">
 <a href="https://ieeexplore.ieee.org/document/10602533"><img src="https://img.shields.io/badge/Paper-IEEE RAL-004088.svg"/></a>
-<a href="https://arxiv.org/abs/2403.10821"><img src="https://img.shields.io/badge/ArXiv-2403.10821-004088.svg"/></a>
+<a href="https://arxiv.org/abs/2403.10821"><img src="https://img.shields.io/badge/ArXiv-2403.10821-da282a.svg"/></a>
 <a href="https://youtu.be/VtQGvuDZSec">
 <img alt="Youtube" src="https://img.shields.io/badge/Video-Youtube-red"/>
 </a>
@@ -26,9 +26,10 @@
 </div>
 
 
+
 > [Chenxing Jiang*](https://jiang-cx.github.io/), Yiming Luo, [Boyu Zhou †](http://sysu-star.com/people/), [Shaojie Shen](https://uav.hkust.edu.hk/group/)
 >
-> Submitted to IEEE Robotics and Automation Letters 2024
+> IEEE Robotics and Automation Letters 2024
 
 ## Abstract
 
@@ -57,7 +58,7 @@ In recent years, implicit online dense mapping methods have achieved high-qualit
 4. Find and download corresponding torch_scatter package in https://pytorch-geometric.com/whl/ . Install the package like:
 
    ```bash
-   eg. pip3 install torch_scatter-2.1.0+pt112cu113-cp37-cp37m-linux_x86_64.whl
+   pip3 install torch_scatter-2.1.0+pt112cu113-cp37-cp37m-linux_x86_64.whl
    ```
 
 ## Run in dataset (Only Mapping)
