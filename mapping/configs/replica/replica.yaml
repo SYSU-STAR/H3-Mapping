@@ -1,0 +1,65 @@
+log_dir: './logs'
+decoder: parallel_hash_net
+dataset: replica
+update_pose: False
+
+criteria:
+  rgb_weight: 0.5
+  depth_weight: 1
+  sdf_weight: 50000.0
+  fs_weight: 10.0
+  sign_weight: 1.0
+  sdf_truncation: 0.05
+  use_s3im_loss: True
+
+decoder_specs:
+  voxel_size: 0.1 # same as mapper_specs
+  L: 4  # Number of levels
+  F_entry: 2  # Number of feature dimensions per entry
+  log2_T: 19  # each level's hashmap_size =  F_entry * (2**F_entry)
+  color_b: 3.0  # each level's resolution = N_min * (b**Level)
+  sdf_b: 2.0  # each level's resolution = N_min * (b**Level)
+  heterogeneous_grids: True # use heterogeneous or not
+
+mapper_specs:
+  start_frame: 0
+  end_frame: -1
+  N_rays_each: 8192 # mapping's sampling ray
+  num_vertexes: 200000
+  inflate_margin_ratio: 0.1
+  voxel_size: 0.1
+  step_size: 0.1
+  num_iterations: 2
+  max_voxel_hit: 10
+  mesh_res: 8
+  overlap_th: 0.8
+  kf_window_size: 8
+  kf_selection_method: "multiple_max_set_coverage" # "random” or “multiple_max_set_coverage”
+  kf_selection_random_radio: 0.5   # random keyframe ratio
+  insert_method: "intersection" # "intersection" # "naive" or "intersection" or "max_set_coverage"
+  insert_ratio: 0.85
+  offset: 10 # used to make make the coordinate of each point positive
+  min_point_each_voxel: 10 # reduce some noise when creating voxels
+  adaptive_ending: False # adaptive iteration
+  new_sdf_strategy: True # use new sdf strategy or not
+  runtime_analysis: True
+  adaptive_kf_pruning: True
+  gradient_aided_coverage_max: True # Gradient-aided Coverage-maximizing Strategy for Keyframe Selection
+  cull_mesh: True
+
+low_freq_directions_specs:
+  max_low_freq_dir_num: 2
+  line_similar_th: 0.95
+  pc_dist_th: 0.05
+  ksize: 0
+  valid_line_th: 0.1
+  update_interval: 10
+
+debug_args:
+  verbose: false
+  mesh_freq: -1
+  render_freq: -1
+  save_ckpt_freq: -1
+  render_res: [ 320, 240 ]
+
+

@@ -1,0 +1,10 @@
+base_config: configs/realsense/realsense.yaml
+
+exp_name: realsense/tower
+
+data_specs:
+  max_depth: 10
+  use_gt: True # notice
+
+decoder_specs:
+  bound: [ [ 0.0,20.0 ],[ 0.0,20.0 ],[ 0.0,10.0 ] ] # [x_min,x_max],[y_min,y_max],[z_min,z_max]

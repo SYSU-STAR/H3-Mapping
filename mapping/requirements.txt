@@ -1,0 +1,7 @@
+open3d==0.16.0
+torch_scatter
+opencv-python
+numpy
+scikit-image
+tqdm
+trimesh
